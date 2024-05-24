@@ -1,7 +1,5 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://")
-
 const ownerSchema = mongoose.Schema({
     fullname : {
         type:String,
