@@ -16,6 +16,6 @@ router.post("/create",upload.single("image"),async(req,res)=>{
     catch(err){
         res.send(err.message)
     }
-})
+});
 
 module.exports = router;
